@@ -34,11 +34,8 @@ form {
     font-family:Verdana, Geneva, sans-serif;
     color:#3b319e;
     text-align: left;
-}
-
-.list {
     border: 1px solid black;
-    width: 500px;
+
 }
 
 .strike {
