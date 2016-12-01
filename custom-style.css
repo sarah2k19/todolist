@@ -40,3 +40,7 @@ form {
     border: 1px solid black;
     width: 400px;
 }
+
+.strike {
+    text-decoration: line-through;
+}
