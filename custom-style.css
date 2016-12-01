@@ -6,7 +6,7 @@ form {
     display: inline-block;
 }
 
-#button{
+#button {
     display: inline-block;
     height:22px;
     width:40px;
@@ -16,8 +16,27 @@ form {
     color:#ffffff;
     border-radius: 0px;
     text-align:center;
-    margin: 2px;
+    padding: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+#button > a:hover,
+#button > a:focus {
+  color: white;
+  background-color: #eea2ad;
+  border: 1px solid #eea2ad;
+}
+
+#button .disabled > a,
+#button .disabled > a:hover,
+#button .disabled > a:focus,
+#button .disabled > span {
+  color: #777777;
+  background-color: #333333;
+  cursor: not-allowed;
+}
+
 
 .list {
     font-family:Verdana, Geneva, sans-serif;
