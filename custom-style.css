@@ -4,22 +4,23 @@ h2 {
 
 form {
     display: inline-block;
+    width: 200px;
 }
 
 #button{
     display: inline-block;
     height:40px;
-	width:200px;
-	background-color:#cc0000;
-	font-family:"Lucida Console", Monaco, monospace;
-	font-weight:bold;
-	color:#ffffff;
-	border-radius: 0px;
-	text-align:center;
-	margin-top:5px;
+    width:40px;
+    background-color:#cc0000;
+    font-family:"Lucida Console", Monaco, monospace;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 0px;
+    text-align:center;
+    margin-top:5px;
 }
 
 .list {
-	font-family:Verdana, Geneva, sans-serif;
-	color:#3b319e;
+    font-family:Verdana, Geneva, sans-serif;
+    color:#3b319e;
 }
