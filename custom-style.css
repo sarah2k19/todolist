@@ -10,10 +10,11 @@ form {
     display: inline-block;
     height:22px;
     width:40px;
-    background-color:#71d68e;
+    background-color:#ffffff;
     font-family:"Lucida Console", Monaco, monospace;
     font-weight:bold;
-    color:#ffffff;
+    color:#000000;
+    border: 1px solid black;
     border-radius: 0px;
     text-align:center;
     padding: 2px;
@@ -24,8 +25,8 @@ form {
 #button > a:hover,
 #button > a:focus {
   color: white;
-  background-color: #eea2ad;
-  border: 1px solid #eea2ad;
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 
 #button .disabled > a,
