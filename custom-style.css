@@ -1,5 +1,5 @@
 h2 {
-    font-family:arial;
+    font-family:Verdana, Geneva, sans-serif;
 }
 
 form {
@@ -8,18 +8,18 @@ form {
 
 #button{
     display: inline-block;
-    height:20px;
-	width:70px;
+    height:40px;
+	width:200px;
 	background-color:#cc0000;
-	font-family:arial;
+	font-family:"Lucida Console", Monaco, monospace;
 	font-weight:bold;
 	color:#ffffff;
-	border-radius: 5px;
+	border-radius: 0px;
 	text-align:center;
-	margin-top:2px;
+	margin-top:5px;
 }
 
 .list {
-	font-family:garamond;
-	color:#cc0000;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#3b319e;
 }
