@@ -22,22 +22,13 @@ form {
     letter-spacing: 1px;
 }
 
-#button > a:hover,
-#button > a:focus {
+#button > hover,
+#button > focus {
   color: white;
   background-color: #000000;
   border: 1px solid #000000;
-}
-
-#button .disabled > a,
-#button .disabled > a:hover,
-#button .disabled > a:focus,
-#button .disabled > span {
-  color: #777777;
-  background-color: #333333;
   cursor: not-allowed;
 }
-
 
 .list {
     font-family:Verdana, Geneva, sans-serif;
