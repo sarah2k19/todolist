@@ -35,3 +35,7 @@ form {
     color:#3b319e;
     text-align: left;
 }
+
+.container {
+    border: 1px solid black;
+}
