@@ -32,16 +32,17 @@ form {
 
 .list {
     font-family:Verdana, Geneva, sans-serif;
+    font-size: 20px;
     color:#3b319e;
-    text-align: center - 10%;
-    border: 1px solid black; 
+    text-align: center;
 }
 
-ul li{
+.strike {
+    text-decoration: line-through;
+}
+
+#item {
     display: list-item;                                                 
     list-style-type: disc; 
     list-style-position: inside;
-}
-.strike {
-    text-decoration: line-through;
 }
