@@ -4,7 +4,7 @@ $(document).ready(function () {
         $('.list').append('<div class="item">' + toAdd + '</div>');
     });
     $(document).(function () {
-        $('.list').on('click', 'item', function () {   
+        $(document).on('click', 'item', function () {   
             $(this).toggleClass("strike"); 
         });
     });
