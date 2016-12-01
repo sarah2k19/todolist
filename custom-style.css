@@ -37,7 +37,7 @@ form {
     border: 1px solid black; 
 }
 
-ul {
+ul li{
     display: list-item;                                                 
     list-style-type: disc; 
     list-style-position: inside;
