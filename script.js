@@ -4,10 +4,6 @@ $(document).ready(function () {
         $('.list').append('<div class="item">' + toAdd + '</div>');
     });
     $(document).on('click', '.item', function () {
-        if($(this).attr('text-decoration')){
-           $(this).removeAttr('text-decoration');
-        }
-        Else{
-            $(this).css(".strike");
+        $(this).remove();  
     });
 });
